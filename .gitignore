@@ -28,8 +28,8 @@ src/compiler/protoc-gen-objc
 
 # Xcode stuff
 Build/
-*.pbxuser
-*.perspective
-*.perspectivev3
-*.mode1v3
-*.mode2v3
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+
+# vim stuff
+*.swp
